@@ -379,7 +379,17 @@ unsigned char uc_out_code_type = CODE_TYPE_STANDARD;
 unsigned int ui_PWM50_Set_Val = PWM_50;
 
 // デバッグ
-unsigned char debug_ary[4] = {0};
+//unsigned char debug_ary[4] = {0};
+// ↑ 2021/10/21 一旦オフ (udataがはみでてしまうため)
+
+// タイマー0 0.1ms カウンター 2021/10/21
+// *10 = 1ms
+// *10000 = 1s
+// *50000 = 5s
+// *600000 = 1m
+// *36000000 = 1h
+#define INTERVAL_SECONDS (36000000)
+unsigned int TimerZeroCount = INTERVAL_SECONDS;
 
 // usbでの送信に使うバッファはここで宣言
 #pragma udata usbram2
@@ -509,6 +519,9 @@ unsigned char ToSendDataBuffer[TX_BUFFER_SIZE];
 				RemoconReceiveData();
 			}	
 			
+			// タイマー0 0.1ms カウント 2021/10/22
+			TimerZeroCount++;
+
 			/* 赤外線リモコンのデータ出力 */
 			RemoconOutData();
 		}
@@ -562,29 +575,31 @@ void main(void)
 	INTCONbits.GIEL = 1;	//低位レベル割り込みの許可
 //	INTCONbits.GIEH = 1;	//高位レベル割り込みの許可
 	INTCONbits.GIE = 1;
-	
-	// ADD START 2021/10/22
-	// 実験で起動時に1度送信可能か試す
-	ToSendDataBuffer[0] = 0x61;				//Echo back to the host PC the command we are fulfilling in the first byte.  In this case, the Get Remocon Data command.
-	uc_out_code_type = CODE_TYPE_EXTENSION;
-	for(fi = 0; fi < OUTBUFFER_SIZE_EX; fi++ )
-    {
-	    uc_out_buff[fi] = 0;
-	}
-	uc_out_buff[0] = 0x01; // ここからターゲットの送信データ
-	uc_out_buff[1] = 0x30; // 配列宣言するとリンクできなくて死ぬ
-	uc_out_buff[2] = 0x00;
-	uc_out_buff[3] = 0x28;
-	uc_out_buff[4] = 0x61;
-	uc_out_buff[5] = 0xBD;
-	uc_out_buff[6] = 0xA1;
-	uc_out_buff[7] = 0x12;
-	uc_out_buff[8] = 0xED;
-	uc_out_buff[9] = 0x00;
-	// END START 2021/10/22
 
     while(1)
     {
+		// ADD START 2021/10/22
+		if (TimerZeroCount >= INTERVAL_SECONDS) {
+			TimerZeroCount = 0;
+			// 実験で起動時に1度送信可能か試す ← 実験OK
+			ToSendDataBuffer[0] = 0x61;				//Echo back to the host PC the command we are fulfilling in the first byte.  In this case, the Get Remocon Data command.
+			uc_out_code_type = CODE_TYPE_EXTENSION;
+			for(fi = 0; fi < OUTBUFFER_SIZE_EX; fi++ )
+			{
+				uc_out_buff[fi] = 0;
+			}
+			uc_out_buff[0] = 0x01; // ここからターゲットの送信データ
+			uc_out_buff[1] = 0x30; // 配列宣言するとリンクできなくて死ぬ
+			uc_out_buff[2] = 0x00;
+			uc_out_buff[3] = 0x28;
+			uc_out_buff[4] = 0x61;
+			uc_out_buff[5] = 0xBD;
+			uc_out_buff[6] = 0xA1;
+			uc_out_buff[7] = 0x12;
+			uc_out_buff[8] = 0xED;
+		}
+		// END START 2021/10/22
+
         #if defined(USB_POLLING)
 		// Check bus status and service USB interrupts.
         USBDeviceTasks(); // Interrupt or polling method.  If using polling, must call
@@ -1122,7 +1137,7 @@ void ProcessIO(void)
                     USBInHandle = HIDTxPacket(HID_EP4,(BYTE*)&ToSendDataBuffer[0],64);
                 }
                 break;
-#if 1	//DEBUG
+#if 0	//DEBUG
             case 0x40:
                 ToSendDataBuffer[0] = 0x40;				//Echo back to the host PC the command we are fulfilling in the first byte.  In this case, the Get Pushbutton State command.
 				ToSendDataBuffer[1] = (unsigned char)(ui_off_count & 0xff);

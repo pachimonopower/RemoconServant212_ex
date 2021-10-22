@@ -1,5 +1,5 @@
 MPLINK 5.00, LINKER
-Linker Map File - Created Fri Oct 22 22:51:45 2021
+Linker Map File - Created Fri Oct 22 23:50:21 2021
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -42,22 +42,22 @@ REMAPPED_HIGH_INTERRUPT_VECTOR       code   0x001008    program   0x000006
              .stringtable    romdata   0x001012    program   0x000000
 REMAPPED_LOW_INTERRUPT_VECTOR       code   0x001018    program   0x000006
                    .cinit    romdata   0x00101e    program   0x00000e
-             .code_main.o       code   0x00102c    program   0x001c76
-       .code_usb_device.o       code   0x002ca2    program   0x000c9e
-.romdata_usb_descriptors.o    romdata   0x003940    program   0x00018c
- .code_usb_function_hid.o       code   0x003acc    program   0x000122
-               _cinit_scn       code   0x003bee    program   0x00009e
-         .code_pw1setdc.o       code   0x003c8c    program   0x00005e
-                   STRING       code   0x003cea    program   0x000050
-          .code_pw1open.o       code   0x003d3a    program   0x000048
-           .code_eeprom.o       code   0x003d82    program   0x000042
-          .code_t0write.o       code   0x003dc4    program   0x000038
-           .code_t0open.o       code   0x003dfc    program   0x000038
-           .code_t2open.o       code   0x003e34    program   0x000036
-         .code_fxd1616u.o       code   0x003e6a    program   0x00002c
-                    .code       code   0x003e96    program   0x000020
-             _startup_scn       code   0x003eb6    program   0x00001c
-          .idata_main.o_i    romdata   0x003ed2    program   0x000095
+             .code_main.o       code   0x00102c    program   0x001c44
+       .code_usb_device.o       code   0x002c70    program   0x000c9e
+.romdata_usb_descriptors.o    romdata   0x00390e    program   0x00018c
+ .code_usb_function_hid.o       code   0x003a9a    program   0x000122
+               _cinit_scn       code   0x003bbc    program   0x00009e
+         .code_pw1setdc.o       code   0x003c5a    program   0x00005e
+                   STRING       code   0x003cb8    program   0x000050
+          .code_pw1open.o       code   0x003d08    program   0x000048
+           .code_eeprom.o       code   0x003d50    program   0x000042
+          .code_t0write.o       code   0x003d92    program   0x000038
+           .code_t0open.o       code   0x003dca    program   0x000038
+           .code_t2open.o       code   0x003e02    program   0x000036
+         .code_fxd1616u.o       code   0x003e38    program   0x00002c
+                    .code       code   0x003e64    program   0x000020
+             _startup_scn       code   0x003e84    program   0x00001c
+          .idata_main.o_i    romdata   0x003ea0    program   0x000093
     .config_300000_main.o    romdata   0x300000    program   0x000001
     .config_300001_main.o    romdata   0x300001    program   0x000001
     .config_300002_main.o    romdata   0x300002    program   0x000001
@@ -72,31 +72,31 @@ REMAPPED_LOW_INTERRUPT_VECTOR       code   0x001018    program   0x000006
     .config_30000d_main.o    romdata   0x30000d    program   0x000001
                 MATH_DATA      udata   0x000000       data   0x000010
                  .tmpdata      udata   0x000010       data   0x000004
-            .idata_main.o      idata   0x000060       data   0x000095
-           .udata_c018i.o      udata   0x0000f5       data   0x00000a
-          .idata_t2open.o      idata   0x0000ff       data   0x000000
-          .udata_t2open.o      udata   0x0000ff       data   0x000000
-          .idata_t0open.o      idata   0x0000ff       data   0x000000
-          .udata_t0open.o      udata   0x0000ff       data   0x000000
-         .idata_pw1open.o      idata   0x0000ff       data   0x000000
-         .udata_pw1open.o      udata   0x0000ff       data   0x000000
-        .idata_fxd1616u.o      idata   0x0000ff       data   0x000000
-        .udata_fxd1616u.o      udata   0x0000ff       data   0x000000
-        .idata_pw1close.o      idata   0x0000ff       data   0x000000
-        .udata_pw1close.o      udata   0x0000ff       data   0x000000
-        .udata_pw1setdc.o      udata   0x0000ff       data   0x000000
-        .idata_pw1setdc.o      idata   0x0000ff       data   0x000000
-          .idata_eeprom.o      idata   0x0000ff       data   0x000000
-          .udata_eeprom.o      udata   0x0000ff       data   0x000000
-.idata_usb_function_hid.o      idata   0x0000ff       data   0x000000
-         .udata_t0write.o      udata   0x0000ff       data   0x000000
-         .idata_t0write.o      idata   0x0000ff       data   0x000000
-      .idata_usb_device.o      idata   0x0000ff       data   0x000000
-          .udata___init.o      udata   0x0000ff       data   0x000000
-          .idata___init.o      idata   0x0000ff       data   0x000000
- .idata_usb_descriptors.o      idata   0x0000ff       data   0x000000
- .udata_usb_descriptors.o      udata   0x0000ff       data   0x000000
-           .idata_c018i.o      idata   0x0000ff       data   0x000000
+            .idata_main.o      idata   0x000060       data   0x000093
+           .udata_c018i.o      udata   0x0000f3       data   0x00000a
+          .idata_t2open.o      idata   0x0000fd       data   0x000000
+          .udata_t2open.o      udata   0x0000fd       data   0x000000
+          .idata_t0open.o      idata   0x0000fd       data   0x000000
+          .udata_t0open.o      udata   0x0000fd       data   0x000000
+         .idata_pw1open.o      idata   0x0000fd       data   0x000000
+         .udata_pw1open.o      udata   0x0000fd       data   0x000000
+        .idata_fxd1616u.o      idata   0x0000fd       data   0x000000
+        .udata_fxd1616u.o      udata   0x0000fd       data   0x000000
+        .idata_pw1close.o      idata   0x0000fd       data   0x000000
+        .udata_pw1close.o      udata   0x0000fd       data   0x000000
+        .udata_pw1setdc.o      udata   0x0000fd       data   0x000000
+        .idata_pw1setdc.o      idata   0x0000fd       data   0x000000
+          .idata_eeprom.o      idata   0x0000fd       data   0x000000
+          .udata_eeprom.o      udata   0x0000fd       data   0x000000
+.idata_usb_function_hid.o      idata   0x0000fd       data   0x000000
+         .udata_t0write.o      udata   0x0000fd       data   0x000000
+         .idata_t0write.o      idata   0x0000fd       data   0x000000
+      .idata_usb_device.o      idata   0x0000fd       data   0x000000
+          .udata___init.o      udata   0x0000fd       data   0x000000
+          .idata___init.o      idata   0x0000fd       data   0x000000
+ .idata_usb_descriptors.o      idata   0x0000fd       data   0x000000
+ .udata_usb_descriptors.o      udata   0x0000fd       data   0x000000
+           .idata_c018i.o      idata   0x0000fd       data   0x000000
                    .stack      udata   0x000100       data   0x000050
             .udata_main.o      udata   0x000150       data   0x000062
       .udata_usb_device.o      udata   0x0001b2       data   0x000040
@@ -115,11 +115,11 @@ REMAPPED_LOW_INTERRUPT_VECTOR       code   0x001018    program   0x000006
                             0x000008    0x00000d      
                             0x000018    0x00001d      
                             0x001000    0x001011      
-                            0x001018    0x003f66      
+                            0x001018    0x003f32      
                             0x300000    0x300003      
                             0x300005    0x300006      
                             0x300008    0x30000d      
-            12159 out of 16408 program addresses used, program memory utilization is 74%
+            12107 out of 16408 program addresses used, program memory utilization is 73%
 
 
 
@@ -127,84 +127,84 @@ REMAPPED_LOW_INTERRUPT_VECTOR       code   0x001018    program   0x000006
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
                 ClosePWM1   0x00100e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1close.c
-                 FXD1616U   0x003e6a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                 FXD1616U   0x003e38    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
                  High_ISR   0x000008    program     extern C:\temp2\RemoconServant212_ex\main.c
-         InitializeSystem   0x001186    program     static C:\temp2\RemoconServant212_ex\main.c
+         InitializeSystem   0x0011b8    program     static C:\temp2\RemoconServant212_ex\main.c
                   Low_ISR   0x000018    program     extern C:\temp2\RemoconServant212_ex\main.c
-                 OpenPWM1   0x003d3a    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
-         OpenPWM1ConfigIO   0x003d64    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
-               OpenTimer0   0x003dfc    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
-               OpenTimer2   0x003e34    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c
-                ProcessIO   0x0012da    program     extern C:\temp2\RemoconServant212_ex\main.c
-               ReadEEPROM   0x003d82    program     extern C:\temp2\RemoconServant212_ex\eeprom.c
+                 OpenPWM1   0x003d08    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
+         OpenPWM1ConfigIO   0x003d32    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
+               OpenTimer0   0x003dca    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+               OpenTimer2   0x003e02    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c
+                ProcessIO   0x00130c    program     extern C:\temp2\RemoconServant212_ex\main.c
+               ReadEEPROM   0x003d50    program     extern C:\temp2\RemoconServant212_ex\eeprom.c
         Remapped_High_ISR   0x001008    program     extern C:\temp2\RemoconServant212_ex\main.c
          Remapped_Low_ISR   0x001018    program     extern C:\temp2\RemoconServant212_ex\main.c
-           RemoconOutData   0x001ca2    program     extern C:\temp2\RemoconServant212_ex\main.c
-       RemoconReceiveData   0x0020e8    program     extern C:\temp2\RemoconServant212_ex\main.c
-                SetDCPWM1   0x003c8c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
-       USBCBCheckOtherReq   0x001bc6    program     extern C:\temp2\RemoconServant212_ex\main.c
-        USBCBErrorHandler   0x001bc4    program     extern C:\temp2\RemoconServant212_ex\main.c
-              USBCBInitEP   0x001bcc    program     extern C:\temp2\RemoconServant212_ex\main.c
-          USBCBSendResume   0x001bf0    program     extern C:\temp2\RemoconServant212_ex\main.c
-    USBCBStdSetDscHandler   0x001bca    program     extern C:\temp2\RemoconServant212_ex\main.c
-             USBCBSuspend   0x001bbe    program     extern C:\temp2\RemoconServant212_ex\main.c
-     USBCBWakeFromSuspend   0x001bc0    program     extern C:\temp2\RemoconServant212_ex\main.c
-        USBCB_SOF_Handler   0x001bc2    program     extern C:\temp2\RemoconServant212_ex\main.c
-              USBCancelIO   0x00369a    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-       USBCheckHIDRequest   0x003acc    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\HID Device Driver\usb_function_hid.c
-       USBCheckStdRequest   0x003048    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-     USBConfigureEndpoint   0x00356c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-  USBCtrlEPAllowDataStage   0x003240    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-USBCtrlEPAllowStatusStage   0x0031f6    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-         USBCtrlEPService   0x002ede    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
- USBCtrlEPServiceComplete   0x003366    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-      USBCtrlTrfInHandler   0x002fcc    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-     USBCtrlTrfOutHandler   0x002fae    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-      USBCtrlTrfRxService   0x00343e    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-   USBCtrlTrfSetupHandler   0x002f74    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-      USBCtrlTrfTxService   0x0033c0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-            USBDeviceInit   0x002ca2    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-           USBDeviceTasks   0x002d5a    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-        USBEnableEndpoint   0x0035c6    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-         USBStallEndpoint   0x003602    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-          USBStallHandler   0x002e84    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-  USBStdFeatureReqHandler   0x0030f0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-      USBStdGetDscHandler   0x00327a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-   USBStdGetStatusHandler   0x0032f4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-      USBStdSetCfgHandler   0x003506    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-               USBSuspend   0x002eac    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-     USBTransferOnePacket   0x003626    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-       USBWakeFromSuspend   0x002ec2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-               USB_CD_Ptr   0x003ac4    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-               USB_SD_Ptr   0x003ac6    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-USER_USB_CALLBACK_EVENT_HANDLER   0x001c0c    program     extern C:\temp2\RemoconServant212_ex\main.c
-                 UserInit   0x001190    program     extern C:\temp2\RemoconServant212_ex\main.c
-              WriteEEPROM   0x003d92    program     extern C:\temp2\RemoconServant212_ex\eeprom.c
-              WriteTimer0   0x003dc4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
+           RemoconOutData   0x001c76    program     extern C:\temp2\RemoconServant212_ex\main.c
+       RemoconReceiveData   0x0020bc    program     extern C:\temp2\RemoconServant212_ex\main.c
+                SetDCPWM1   0x003c5a    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
+       USBCBCheckOtherReq   0x001b9a    program     extern C:\temp2\RemoconServant212_ex\main.c
+        USBCBErrorHandler   0x001b98    program     extern C:\temp2\RemoconServant212_ex\main.c
+              USBCBInitEP   0x001ba0    program     extern C:\temp2\RemoconServant212_ex\main.c
+          USBCBSendResume   0x001bc4    program     extern C:\temp2\RemoconServant212_ex\main.c
+    USBCBStdSetDscHandler   0x001b9e    program     extern C:\temp2\RemoconServant212_ex\main.c
+             USBCBSuspend   0x001b92    program     extern C:\temp2\RemoconServant212_ex\main.c
+     USBCBWakeFromSuspend   0x001b94    program     extern C:\temp2\RemoconServant212_ex\main.c
+        USBCB_SOF_Handler   0x001b96    program     extern C:\temp2\RemoconServant212_ex\main.c
+              USBCancelIO   0x003668    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+       USBCheckHIDRequest   0x003a9a    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\HID Device Driver\usb_function_hid.c
+       USBCheckStdRequest   0x003016    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+     USBConfigureEndpoint   0x00353a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+  USBCtrlEPAllowDataStage   0x00320e    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+USBCtrlEPAllowStatusStage   0x0031c4    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+         USBCtrlEPService   0x002eac    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+ USBCtrlEPServiceComplete   0x003334    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+      USBCtrlTrfInHandler   0x002f9a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+     USBCtrlTrfOutHandler   0x002f7c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+      USBCtrlTrfRxService   0x00340c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+   USBCtrlTrfSetupHandler   0x002f42    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+      USBCtrlTrfTxService   0x00338e    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+            USBDeviceInit   0x002c70    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+           USBDeviceTasks   0x002d28    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+        USBEnableEndpoint   0x003594    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+         USBStallEndpoint   0x0035d0    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+          USBStallHandler   0x002e52    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+  USBStdFeatureReqHandler   0x0030be    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+      USBStdGetDscHandler   0x003248    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+   USBStdGetStatusHandler   0x0032c2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+      USBStdSetCfgHandler   0x0034d4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+               USBSuspend   0x002e7a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+     USBTransferOnePacket   0x0035f4    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+       USBWakeFromSuspend   0x002e90    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+               USB_CD_Ptr   0x003a92    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+               USB_SD_Ptr   0x003a94    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+USER_USB_CALLBACK_EVENT_HANDLER   0x001be0    program     extern C:\temp2\RemoconServant212_ex\main.c
+                 UserInit   0x0011c2    program     extern C:\temp2\RemoconServant212_ex\main.c
+              WriteEEPROM   0x003d60    program     extern C:\temp2\RemoconServant212_ex\eeprom.c
+              WriteTimer0   0x003d92    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
   YourHighPriorityISRCode   0x00102c    program     extern C:\temp2\RemoconServant212_ex\main.c
    YourLowPriorityISRCode   0x00103a    program     extern C:\temp2\RemoconServant212_ex\main.c
-              _2jContinue   0x003d0a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
-                   _3jEnd   0x003d14    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
-     ___case_114_lbl00223   0x001c90    program     static                          
-     ___case_115_lbl00219   0x001c80    program     static                          
-     ___case_116_lbl00221   0x001c88    program     static                          
-     ___case_117_lbl00220   0x001c84    program     static                          
-       ___case_1_lbl00216   0x001c74    program     static                          
-       ___case_2_lbl00217   0x001c78    program     static                          
-   ___case_32767_lbl00222   0x001c8c    program     static                          
-       ___case_3_lbl00218   0x001c7c    program     static                          
-      ___default_lbl00224   0x001c94    program     static                          
+              _2jContinue   0x003cd8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                   _3jEnd   0x003ce2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+     ___case_114_lbl00216   0x001c64    program     static                          
+     ___case_115_lbl00212   0x001c54    program     static                          
+     ___case_116_lbl00214   0x001c5c    program     static                          
+     ___case_117_lbl00213   0x001c58    program     static                          
+       ___case_1_lbl00209   0x001c48    program     static                          
+       ___case_2_lbl00210   0x001c4c    program     static                          
+   ___case_32767_lbl00215   0x001c60    program     static                          
+       ___case_3_lbl00211   0x001c50    program     static                          
+      ___default_lbl00217   0x001c68    program     static                          
        ___return_lbl00000   0x001004    program     static                          
-       ___return_lbl00000   0x003e94    program     static                          
+       ___return_lbl00000   0x003e62    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00001   0x003ed0    program     static                          
+       ___return_lbl00001   0x003e9e    program     static                          
        ___return_lbl00001   0x00100c    program     static                          
-       ___return_lbl00002   0x003c8a    program     static                          
+       ___return_lbl00002   0x003c58    program     static                          
        ___return_lbl00002   0x00101c    program     static                          
        ___return_lbl00003   0x00000c    program     static                          
        ___return_lbl00004   0x00001c    program     static                          
-       ___return_lbl00214   0x001c9a    program     static                          
-   ___switchexit_lbl00215   0x001c96    program     static                          
+       ___return_lbl00207   0x001c6e    program     static                          
+   ___switchexit_lbl00208   0x001c6a    program     static                          
                __config_0   0x300000    program     static C:\temp2\RemoconServant212_ex\main.c
                __config_1   0x300001    program     static C:\temp2\RemoconServant212_ex\main.c
               __config_10   0x30000c    program     static C:\temp2\RemoconServant212_ex\main.c
@@ -218,207 +218,206 @@ USER_USB_CALLBACK_EVENT_HANDLER   0x001c0c    program     extern C:\temp2\Remoco
                __config_8   0x30000a    program     static C:\temp2\RemoconServant212_ex\main.c
                __config_9   0x30000b    program     static C:\temp2\RemoconServant212_ex\main.c
                    __init   0x001006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-                   __pa_0   0x002750    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_0   0x003db4    program     static C:\temp2\RemoconServant212_ex\eeprom.c
-                   __pa_0   0x0036c6    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_1   0x0036ce    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_1   0x002766    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_10   0x00372c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_10   0x002826    program     static C:\temp2\RemoconServant212_ex\main.c
-                 __pa_100   0x002c90    program     static C:\temp2\RemoconServant212_ex\main.c
-                 __pa_101   0x002c9a    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_11   0x002830    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_11   0x003740    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_12   0x00374a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_12   0x002870    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_13   0x00376a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_13   0x00287e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_14   0x00288c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_14   0x00377c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_15   0x0028a4    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_15   0x003788    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_16   0x0028aa    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_16   0x0037a2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_17   0x0028ba    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_17   0x0037ae    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_18   0x0037ba    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_18   0x0028cc    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_19   0x0037c2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_19   0x0028de    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_2   0x002774    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_2   0x0036d8    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_20   0x0037ca    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_20   0x0028ee    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_21   0x0037d6    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_21   0x0028fa    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_22   0x0037e6    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_22   0x002904    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_23   0x0037f6    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_23   0x002912    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_24   0x003806    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_24   0x00292a    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_25   0x003814    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_25   0x002948    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_26   0x003822    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_26   0x002952    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_27   0x003830    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_27   0x002962    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_28   0x00383e    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_28   0x002972    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_29   0x00384c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_29   0x00297e    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_3   0x002782    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_3   0x0036e0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_30   0x00298c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_30   0x003856    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_31   0x002998    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_31   0x00386e    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_32   0x00387a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_32   0x0029ae    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_33   0x003882    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_33   0x0029be    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_34   0x003896    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_34   0x0029ce    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_35   0x0038a4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_35   0x0029d6    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_36   0x0038ae    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_36   0x0029ee    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_37   0x0029f8    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_37   0x0038b8    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_38   0x0038be    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_38   0x002a02    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_39   0x0038ce    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_39   0x002a0c    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_4   0x00278c    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_4   0x0036ea    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_40   0x0038d4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_40   0x002a16    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_41   0x002a1e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_41   0x0038e2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_42   0x002a26    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_42   0x0038f0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_43   0x002a34    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_43   0x0038fe    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_44   0x002a3c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_44   0x003908    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_45   0x003912    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_45   0x002a48    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_46   0x002a54    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_46   0x00391a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_47   0x002a60    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_47   0x003922    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_48   0x00392e    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_48   0x002a6c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_49   0x003938    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_49   0x002a78    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_5   0x0036f4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_5   0x002794    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_50   0x002a7e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_51   0x002a84    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_52   0x002a94    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_53   0x002a9e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_54   0x002aae    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_55   0x002ab8    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_56   0x002ac4    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_57   0x002ad4    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_58   0x002ae2    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_59   0x002af0    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_6   0x0036fe    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_6   0x0027aa    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_60   0x002afe    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_61   0x002b08    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_62   0x002b0e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_63   0x002b18    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_64   0x002b22    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_65   0x002b2c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_66   0x002b34    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_67   0x002b42    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_68   0x002b56    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_69   0x002b64    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_7   0x003706    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_7   0x0027ba    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_70   0x002b6e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_71   0x002b76    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_72   0x002b7e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_73   0x002b90    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_74   0x002b9e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_75   0x002ba8    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_76   0x002bb4    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_77   0x002bba    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_78   0x002bc0    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_79   0x002bca    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_8   0x003716    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_8   0x0027c8    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_80   0x002bd0    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_81   0x002bda    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_82   0x002be6    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_83   0x002bf2    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_84   0x002bfe    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_85   0x002c0a    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_86   0x002c12    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_87   0x002c1c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_88   0x002c22    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_89   0x002c28    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_9   0x0027dc    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_9   0x003720    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_90   0x002c2e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_91   0x002c34    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_92   0x002c3c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_93   0x002c42    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_94   0x002c4c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_95   0x002c52    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_96   0x002c5a    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_97   0x002c6a    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_98   0x002c78    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_99   0x002c86    program     static C:\temp2\RemoconServant212_ex\main.c
-             __tmplbl_130   0x0029ee    program     static                          
-             __tmplbl_132   0x001bb0    program     static                          
-             __tmplbl_133   0x001bb0    program     static                          
-              __tmplbl_16   0x001c28    program     static                          
-             __tmplbl_167   0x0029ee    program     static                          
-              __tmplbl_17   0x001c34    program     static                          
-             __tmplbl_176   0x0029ee    program     static                          
-              __tmplbl_18   0x001c3e    program     static                          
-              __tmplbl_19   0x001c48    program     static                          
-              __tmplbl_20   0x001c52    program     static                          
-              __tmplbl_21   0x001c5c    program     static                          
-              __tmplbl_22   0x001c66    program     static                          
-              __tmplbl_23   0x001c70    program     static                          
-              __tmplbl_23   0x0036fe    program     static                          
-              __tmplbl_33   0x0036fe    program     static                          
-            __zero_memory   0x003e96    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                _do_cinit   0x003bee    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   __pa_0   0x002724    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_0   0x003694    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_0   0x003d82    program     static C:\temp2\RemoconServant212_ex\eeprom.c
+                   __pa_1   0x00273a    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_1   0x00369c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_10   0x0027f6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_10   0x0036fa    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                 __pa_100   0x002c68    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_11   0x00370e    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_11   0x002804    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_12   0x003718    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_12   0x002844    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_13   0x003738    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_13   0x002852    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_14   0x002860    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_14   0x00374a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_15   0x002878    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_15   0x003756    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_16   0x00287e    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_16   0x003770    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_17   0x00288e    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_17   0x00377c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_18   0x0028a0    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_18   0x003788    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_19   0x0028b2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_19   0x003790    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_2   0x0036a6    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_2   0x002748    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_20   0x003798    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_20   0x0028c2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_21   0x0037a4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_21   0x0028ce    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_22   0x0037b4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_22   0x0028d8    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_23   0x0037c4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_23   0x0028e6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_24   0x0037d4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_24   0x0028fe    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_25   0x0037e2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_25   0x00291c    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_26   0x0037f0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_26   0x002926    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_27   0x0037fe    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_27   0x002936    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_28   0x00380c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_28   0x002946    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_29   0x00381a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_29   0x002952    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_3   0x002756    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_3   0x0036ae    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_30   0x002960    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_30   0x003824    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_31   0x00296c    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_31   0x00383c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_32   0x003848    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_32   0x002982    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_33   0x003850    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_33   0x002992    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_34   0x003864    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_34   0x0029a2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_35   0x003872    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_35   0x0029ba    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_36   0x00387c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_36   0x0029c4    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_37   0x0029ce    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_37   0x003886    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_38   0x00388c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_38   0x0029d8    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_39   0x00389c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_39   0x0029e2    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_4   0x002760    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_4   0x0036b8    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_40   0x0038a2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_40   0x0029ea    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_41   0x0029f2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_41   0x0038b0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_42   0x0029fa    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_42   0x0038be    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_43   0x002a08    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_43   0x0038cc    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_44   0x002a10    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_44   0x0038d6    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_45   0x0038e0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_45   0x002a1c    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_46   0x002a28    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_46   0x0038e8    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_47   0x002a34    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_47   0x0038f0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_48   0x0038fc    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_48   0x002a40    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_49   0x003906    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_49   0x002a4c    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_5   0x0036c2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_5   0x002768    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_50   0x002a52    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_51   0x002a58    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_52   0x002a68    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_53   0x002a72    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_54   0x002a82    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_55   0x002a8c    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_56   0x002a98    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_57   0x002aa8    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_58   0x002ab6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_59   0x002ac4    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_6   0x0036cc    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_6   0x00277e    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_60   0x002ad2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_61   0x002adc    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_62   0x002ae2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_63   0x002aec    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_64   0x002af6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_65   0x002b00    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_66   0x002b08    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_67   0x002b16    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_68   0x002b2a    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_69   0x002b38    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_7   0x0036d4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_7   0x00278e    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_70   0x002b42    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_71   0x002b4a    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_72   0x002b52    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_73   0x002b64    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_74   0x002b72    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_75   0x002b7c    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_76   0x002b88    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_77   0x002b8e    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_78   0x002b94    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_79   0x002b9e    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_8   0x0036e4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_8   0x0027a2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_80   0x002ba4    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_81   0x002bae    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_82   0x002bba    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_83   0x002bc6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_84   0x002bd2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_85   0x002bde    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_86   0x002be6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_87   0x002bf0    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_88   0x002bf6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_89   0x002bfc    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_9   0x0027ec    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_9   0x0036ee    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_90   0x002c02    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_91   0x002c08    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_92   0x002c10    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_93   0x002c16    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_94   0x002c20    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_95   0x002c28    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_96   0x002c38    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_97   0x002c46    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_98   0x002c54    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_99   0x002c5e    program     static C:\temp2\RemoconServant212_ex\main.c
+             __tmplbl_131   0x0029ba    program     static                          
+             __tmplbl_133   0x001b84    program     static                          
+             __tmplbl_134   0x001b84    program     static                          
+             __tmplbl_164   0x0029ba    program     static                          
+              __tmplbl_17   0x001bfc    program     static                          
+             __tmplbl_173   0x0029ba    program     static                          
+              __tmplbl_18   0x001c08    program     static                          
+              __tmplbl_19   0x001c12    program     static                          
+              __tmplbl_20   0x001c1c    program     static                          
+              __tmplbl_21   0x001c26    program     static                          
+              __tmplbl_22   0x001c30    program     static                          
+              __tmplbl_23   0x001c3a    program     static                          
+              __tmplbl_23   0x0036cc    program     static                          
+              __tmplbl_24   0x001c44    program     static                          
+              __tmplbl_33   0x0036cc    program     static                          
+            __zero_memory   0x003e64    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                _do_cinit   0x003bbc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _reset   0x001000    program     extern C:\temp2\RemoconServant212_ex\main.c
-                 _startup   0x003eb6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                compare_l   0x003eac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-        configDescriptor1   0x003952    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                copy_loop   0x003c60    program     static                          
-            copy_one_byte   0x003c66    program     static                          
-               device_dsc   0x003940    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                     done   0x003c8a    program     static                          
-             done_copying   0x003c74    program     static                          
-                  endloop   0x003e90    program     static                          
-                hid_rpt01   0x0039cd    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                hid_rpt02   0x003a01    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                hid_rpt03   0x003a20    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                hid_rpt04   0x003a5f    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                     jEnd   0x003d1c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
-                     jEnd   0x003d38    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                    jLoop   0x003cfe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
-                    jLoop   0x003d2e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                     loop   0x003e74    program     static                          
-                     loop   0x003ec6    program     static                          
-                   loop_h   0x003ea4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                   loop_l   0x003eae    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                     main   0x0010f8    program     extern C:\temp2\RemoconServant212_ex\main.c
-                   memset   0x003cea    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
-                    sd000   0x003a7c    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                    sd001   0x003a80    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                    sd002   0x003aa6    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                   strlen   0x003d1e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                     test   0x003c08    program     static                          
-               zero_block   0x003ea4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 _startup   0x003e84    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                compare_l   0x003e7a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+        configDescriptor1   0x003920    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                copy_loop   0x003c2e    program     static                          
+            copy_one_byte   0x003c34    program     static                          
+               device_dsc   0x00390e    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                     done   0x003c58    program     static                          
+             done_copying   0x003c42    program     static                          
+                  endloop   0x003e5e    program     static                          
+                hid_rpt01   0x00399b    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                hid_rpt02   0x0039cf    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                hid_rpt03   0x0039ee    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                hid_rpt04   0x003a2d    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                     jEnd   0x003cea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                     jEnd   0x003d06    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                    jLoop   0x003ccc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                    jLoop   0x003cfc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     loop   0x003e42    program     static                          
+                     loop   0x003e94    program     static                          
+                   loop_h   0x003e72    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   loop_l   0x003e7c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     main   0x001100    program     extern C:\temp2\RemoconServant212_ex\main.c
+                   memset   0x003cb8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                    sd000   0x003a4a    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                    sd001   0x003a4e    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                    sd002   0x003a74    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                   strlen   0x003cec    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     test   0x003bd6    program     static                          
+               zero_block   0x003e72    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                    ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                    ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
@@ -611,6 +610,7 @@ USER_USB_CALLBACK_EVENT_HANDLER   0x001c0c    program     extern C:\temp2\Remoco
                     TXREG   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                 TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+           TimerZeroCount   0x0000ee       data     extern C:\temp2\RemoconServant212_ex\main.c
          ToSendDataBuffer   0x0002b6       data     extern C:\temp2\RemoconServant212_ex\main.c
                     UADDR   0x000f5c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                 UADDRbits   0x000f5c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
@@ -701,10 +701,9 @@ USBStatusStageTimeoutCounter   0x0001ec       data     extern C:\temp2\RemoconSe
           active_protocol   0x0001f3       data     extern C:\temp2\RemoconServant212_ex\Microchip\USB\HID Device Driver\usb_function_hid.c
                 c_version   0x000060       data     extern C:\temp2\RemoconServant212_ex\main.c
      controlTransferState   0x0001ce       data     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                curr_byte   0x0000f8       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               curr_entry   0x0000fa       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 data_ptr   0x0000fc       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                debug_ary   0x0000ee       data     extern C:\temp2\RemoconServant212_ex\main.c
+                curr_byte   0x0000f6       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x0000f8       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x0000fa       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
               delay_count   0x0001b0       data     static C:\temp2\RemoconServant212_ex\main.c
              eeprom_1data   0x000160       data     extern C:\temp2\RemoconServant212_ex\main.c
         eeprom_check_data   0x000071       data     extern C:\temp2\RemoconServant212_ex\main.c
@@ -714,7 +713,7 @@ USBStatusStageTimeoutCounter   0x0001ec       data     extern C:\temp2\RemoconSe
                hid_report   0x00026e       data     extern C:\temp2\RemoconServant212_ex\main.c
             hid_report_in   0x000261       data     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
            hid_report_out   0x000260       data     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-      hid_report_out_flag   0x0000f4       data     extern C:\temp2\RemoconServant212_ex\main.c
+      hid_report_out_flag   0x0000f2       data     extern C:\temp2\RemoconServant212_ex\main.c
                 idle_rate   0x0001f2       data     extern C:\temp2\RemoconServant212_ex\Microchip\USB\HID Device Driver\usb_function_hid.c
                   inPipes   0x0001cf       data     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
           keyboard_buffer   0x000150       data     extern C:\temp2\RemoconServant212_ex\main.c
@@ -724,7 +723,7 @@ lastOUTTransmissionKeyboard   0x00015e       data     extern C:\temp2\RemoconSer
         lastTransmission2   0x00015a       data     extern C:\temp2\RemoconServant212_ex\main.c
              mouse_buffer   0x000066       data     extern C:\temp2\RemoconServant212_ex\main.c
               mouse_input   0x00026a       data     extern C:\temp2\RemoconServant212_ex\main.c
-     mouse_input_out_flag   0x0000f3       data     extern C:\temp2\RemoconServant212_ex\main.c
+     mouse_input_out_flag   0x0000f1       data     extern C:\temp2\RemoconServant212_ex\main.c
                  outPipes   0x0001d4       data     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
    pBDTEntryEP0OutCurrent   0x0001b5       data     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
       pBDTEntryEP0OutNext   0x0001b7       data     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
@@ -732,7 +731,7 @@ lastOUTTransmissionKeyboard   0x00015e       data     extern C:\temp2\RemoconSer
              pBDTEntryOut   0x0001b9       data     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
                      pDst   0x0001db       data     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
    process_read_data_flag   0x0000cc       data     extern C:\temp2\RemoconServant212_ex\main.c
-                     prom   0x0000f5       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     prom   0x0000f3       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
   result_button_press_set   0x00006f       data     extern C:\temp2\RemoconServant212_ex\main.c
  result_button_press_set2   0x000070       data     extern C:\temp2\RemoconServant212_ex\main.c
       send_read_data_flag   0x0000cb       data     extern C:\temp2\RemoconServant212_ex\main.c
@@ -768,7 +767,7 @@ uc_send_bit_size_2nd_data   0x0000e8       data     extern C:\temp2\RemoconServa
                ui_out_pos   0x0000db       data     extern C:\temp2\RemoconServant212_ex\main.c
             volume_buffer   0x00006a       data     extern C:\temp2\RemoconServant212_ex\main.c
              volume_input   0x000269       data     extern C:\temp2\RemoconServant212_ex\main.c
-    volume_input_out_flag   0x0000f2       data     extern C:\temp2\RemoconServant212_ex\main.c
+    volume_input_out_flag   0x0000f0       data     extern C:\temp2\RemoconServant212_ex\main.c
 
 
 
@@ -791,271 +790,270 @@ uc_send_bit_size_2nd_data   0x0000e8       data     extern C:\temp2\RemoconServa
        ___return_lbl00002   0x00101c    program     static                          
   YourHighPriorityISRCode   0x00102c    program     extern C:\temp2\RemoconServant212_ex\main.c
    YourLowPriorityISRCode   0x00103a    program     extern C:\temp2\RemoconServant212_ex\main.c
-                     main   0x0010f8    program     extern C:\temp2\RemoconServant212_ex\main.c
-         InitializeSystem   0x001186    program     static C:\temp2\RemoconServant212_ex\main.c
-                 UserInit   0x001190    program     extern C:\temp2\RemoconServant212_ex\main.c
-                ProcessIO   0x0012da    program     extern C:\temp2\RemoconServant212_ex\main.c
-             __tmplbl_132   0x001bb0    program     static                          
-             __tmplbl_133   0x001bb0    program     static                          
-             USBCBSuspend   0x001bbe    program     extern C:\temp2\RemoconServant212_ex\main.c
-     USBCBWakeFromSuspend   0x001bc0    program     extern C:\temp2\RemoconServant212_ex\main.c
-        USBCB_SOF_Handler   0x001bc2    program     extern C:\temp2\RemoconServant212_ex\main.c
-        USBCBErrorHandler   0x001bc4    program     extern C:\temp2\RemoconServant212_ex\main.c
-       USBCBCheckOtherReq   0x001bc6    program     extern C:\temp2\RemoconServant212_ex\main.c
-    USBCBStdSetDscHandler   0x001bca    program     extern C:\temp2\RemoconServant212_ex\main.c
-              USBCBInitEP   0x001bcc    program     extern C:\temp2\RemoconServant212_ex\main.c
-          USBCBSendResume   0x001bf0    program     extern C:\temp2\RemoconServant212_ex\main.c
-USER_USB_CALLBACK_EVENT_HANDLER   0x001c0c    program     extern C:\temp2\RemoconServant212_ex\main.c
-              __tmplbl_16   0x001c28    program     static                          
-              __tmplbl_17   0x001c34    program     static                          
-              __tmplbl_18   0x001c3e    program     static                          
-              __tmplbl_19   0x001c48    program     static                          
-              __tmplbl_20   0x001c52    program     static                          
-              __tmplbl_21   0x001c5c    program     static                          
-              __tmplbl_22   0x001c66    program     static                          
-              __tmplbl_23   0x001c70    program     static                          
-       ___case_1_lbl00216   0x001c74    program     static                          
-       ___case_2_lbl00217   0x001c78    program     static                          
-       ___case_3_lbl00218   0x001c7c    program     static                          
-     ___case_115_lbl00219   0x001c80    program     static                          
-     ___case_117_lbl00220   0x001c84    program     static                          
-     ___case_116_lbl00221   0x001c88    program     static                          
-   ___case_32767_lbl00222   0x001c8c    program     static                          
-     ___case_114_lbl00223   0x001c90    program     static                          
-      ___default_lbl00224   0x001c94    program     static                          
-   ___switchexit_lbl00215   0x001c96    program     static                          
-       ___return_lbl00214   0x001c9a    program     static                          
-           RemoconOutData   0x001ca2    program     extern C:\temp2\RemoconServant212_ex\main.c
-       RemoconReceiveData   0x0020e8    program     extern C:\temp2\RemoconServant212_ex\main.c
-                   __pa_0   0x002750    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_1   0x002766    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_2   0x002774    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_3   0x002782    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_4   0x00278c    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_5   0x002794    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_6   0x0027aa    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_7   0x0027ba    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_8   0x0027c8    program     static C:\temp2\RemoconServant212_ex\main.c
-                   __pa_9   0x0027dc    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_10   0x002826    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_11   0x002830    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_12   0x002870    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_13   0x00287e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_14   0x00288c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_15   0x0028a4    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_16   0x0028aa    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_17   0x0028ba    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_18   0x0028cc    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_19   0x0028de    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_20   0x0028ee    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_21   0x0028fa    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_22   0x002904    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_23   0x002912    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_24   0x00292a    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_25   0x002948    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_26   0x002952    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_27   0x002962    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_28   0x002972    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_29   0x00297e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_30   0x00298c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_31   0x002998    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_32   0x0029ae    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_33   0x0029be    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_34   0x0029ce    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_35   0x0029d6    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_36   0x0029ee    program     static C:\temp2\RemoconServant212_ex\main.c
-             __tmplbl_130   0x0029ee    program     static                          
-             __tmplbl_176   0x0029ee    program     static                          
-             __tmplbl_167   0x0029ee    program     static                          
-                  __pa_37   0x0029f8    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_38   0x002a02    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_39   0x002a0c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_40   0x002a16    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_41   0x002a1e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_42   0x002a26    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_43   0x002a34    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_44   0x002a3c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_45   0x002a48    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_46   0x002a54    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_47   0x002a60    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_48   0x002a6c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_49   0x002a78    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_50   0x002a7e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_51   0x002a84    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_52   0x002a94    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_53   0x002a9e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_54   0x002aae    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_55   0x002ab8    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_56   0x002ac4    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_57   0x002ad4    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_58   0x002ae2    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_59   0x002af0    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_60   0x002afe    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_61   0x002b08    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_62   0x002b0e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_63   0x002b18    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_64   0x002b22    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_65   0x002b2c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_66   0x002b34    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_67   0x002b42    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_68   0x002b56    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_69   0x002b64    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_70   0x002b6e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_71   0x002b76    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_72   0x002b7e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_73   0x002b90    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_74   0x002b9e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_75   0x002ba8    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_76   0x002bb4    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_77   0x002bba    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_78   0x002bc0    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_79   0x002bca    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_80   0x002bd0    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_81   0x002bda    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_82   0x002be6    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_83   0x002bf2    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_84   0x002bfe    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_85   0x002c0a    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_86   0x002c12    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_87   0x002c1c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_88   0x002c22    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_89   0x002c28    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_90   0x002c2e    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_91   0x002c34    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_92   0x002c3c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_93   0x002c42    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_94   0x002c4c    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_95   0x002c52    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_96   0x002c5a    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_97   0x002c6a    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_98   0x002c78    program     static C:\temp2\RemoconServant212_ex\main.c
-                  __pa_99   0x002c86    program     static C:\temp2\RemoconServant212_ex\main.c
-                 __pa_100   0x002c90    program     static C:\temp2\RemoconServant212_ex\main.c
-                 __pa_101   0x002c9a    program     static C:\temp2\RemoconServant212_ex\main.c
-            USBDeviceInit   0x002ca2    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-           USBDeviceTasks   0x002d5a    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-          USBStallHandler   0x002e84    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-               USBSuspend   0x002eac    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-       USBWakeFromSuspend   0x002ec2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-         USBCtrlEPService   0x002ede    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-   USBCtrlTrfSetupHandler   0x002f74    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-     USBCtrlTrfOutHandler   0x002fae    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-      USBCtrlTrfInHandler   0x002fcc    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-       USBCheckStdRequest   0x003048    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-  USBStdFeatureReqHandler   0x0030f0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-USBCtrlEPAllowStatusStage   0x0031f6    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-  USBCtrlEPAllowDataStage   0x003240    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-      USBStdGetDscHandler   0x00327a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-   USBStdGetStatusHandler   0x0032f4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
- USBCtrlEPServiceComplete   0x003366    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-      USBCtrlTrfTxService   0x0033c0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-      USBCtrlTrfRxService   0x00343e    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-      USBStdSetCfgHandler   0x003506    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-     USBConfigureEndpoint   0x00356c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-        USBEnableEndpoint   0x0035c6    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-         USBStallEndpoint   0x003602    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-     USBTransferOnePacket   0x003626    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-              USBCancelIO   0x00369a    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_0   0x0036c6    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_1   0x0036ce    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_2   0x0036d8    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_3   0x0036e0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_4   0x0036ea    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_5   0x0036f4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-              __tmplbl_33   0x0036fe    program     static                          
-              __tmplbl_23   0x0036fe    program     static                          
-                   __pa_6   0x0036fe    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_7   0x003706    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_8   0x003716    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                   __pa_9   0x003720    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_10   0x00372c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_11   0x003740    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_12   0x00374a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_13   0x00376a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_14   0x00377c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_15   0x003788    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_16   0x0037a2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_17   0x0037ae    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_18   0x0037ba    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_19   0x0037c2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_20   0x0037ca    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_21   0x0037d6    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_22   0x0037e6    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_23   0x0037f6    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_24   0x003806    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_25   0x003814    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_26   0x003822    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_27   0x003830    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_28   0x00383e    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_29   0x00384c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_30   0x003856    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_31   0x00386e    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_32   0x00387a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_33   0x003882    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_34   0x003896    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_35   0x0038a4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_36   0x0038ae    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_37   0x0038b8    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_38   0x0038be    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_39   0x0038ce    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_40   0x0038d4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_41   0x0038e2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_42   0x0038f0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_43   0x0038fe    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_44   0x003908    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_45   0x003912    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_46   0x00391a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_47   0x003922    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_48   0x00392e    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-                  __pa_49   0x003938    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
-               device_dsc   0x003940    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-        configDescriptor1   0x003952    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                hid_rpt01   0x0039cd    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                hid_rpt02   0x003a01    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                hid_rpt03   0x003a20    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                hid_rpt04   0x003a5f    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                    sd000   0x003a7c    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                    sd001   0x003a80    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-                    sd002   0x003aa6    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-               USB_CD_Ptr   0x003ac4    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-               USB_SD_Ptr   0x003ac6    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
-       USBCheckHIDRequest   0x003acc    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\HID Device Driver\usb_function_hid.c
-                _do_cinit   0x003bee    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x003c08    program     static                          
-                copy_loop   0x003c60    program     static                          
-            copy_one_byte   0x003c66    program     static                          
-             done_copying   0x003c74    program     static                          
-       ___return_lbl00002   0x003c8a    program     static                          
-                     done   0x003c8a    program     static                          
-                SetDCPWM1   0x003c8c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
-                   memset   0x003cea    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
-                    jLoop   0x003cfe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
-              _2jContinue   0x003d0a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
-                   _3jEnd   0x003d14    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
-                     jEnd   0x003d1c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
-                   strlen   0x003d1e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                    jLoop   0x003d2e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                     jEnd   0x003d38    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                 OpenPWM1   0x003d3a    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
-         OpenPWM1ConfigIO   0x003d64    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
-               ReadEEPROM   0x003d82    program     extern C:\temp2\RemoconServant212_ex\eeprom.c
-              WriteEEPROM   0x003d92    program     extern C:\temp2\RemoconServant212_ex\eeprom.c
-                   __pa_0   0x003db4    program     static C:\temp2\RemoconServant212_ex\eeprom.c
-              WriteTimer0   0x003dc4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
-               OpenTimer0   0x003dfc    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
-               OpenTimer2   0x003e34    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c
-                 FXD1616U   0x003e6a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                     loop   0x003e74    program     static                          
-                  endloop   0x003e90    program     static                          
-       ___return_lbl00000   0x003e94    program     static                          
-            __zero_memory   0x003e96    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                   loop_h   0x003ea4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-               zero_block   0x003ea4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                compare_l   0x003eac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                   loop_l   0x003eae    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                 _startup   0x003eb6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x003ec6    program     static                          
-       ___return_lbl00001   0x003ed0    program     static                          
+                     main   0x001100    program     extern C:\temp2\RemoconServant212_ex\main.c
+         InitializeSystem   0x0011b8    program     static C:\temp2\RemoconServant212_ex\main.c
+                 UserInit   0x0011c2    program     extern C:\temp2\RemoconServant212_ex\main.c
+                ProcessIO   0x00130c    program     extern C:\temp2\RemoconServant212_ex\main.c
+             __tmplbl_133   0x001b84    program     static                          
+             __tmplbl_134   0x001b84    program     static                          
+             USBCBSuspend   0x001b92    program     extern C:\temp2\RemoconServant212_ex\main.c
+     USBCBWakeFromSuspend   0x001b94    program     extern C:\temp2\RemoconServant212_ex\main.c
+        USBCB_SOF_Handler   0x001b96    program     extern C:\temp2\RemoconServant212_ex\main.c
+        USBCBErrorHandler   0x001b98    program     extern C:\temp2\RemoconServant212_ex\main.c
+       USBCBCheckOtherReq   0x001b9a    program     extern C:\temp2\RemoconServant212_ex\main.c
+    USBCBStdSetDscHandler   0x001b9e    program     extern C:\temp2\RemoconServant212_ex\main.c
+              USBCBInitEP   0x001ba0    program     extern C:\temp2\RemoconServant212_ex\main.c
+          USBCBSendResume   0x001bc4    program     extern C:\temp2\RemoconServant212_ex\main.c
+USER_USB_CALLBACK_EVENT_HANDLER   0x001be0    program     extern C:\temp2\RemoconServant212_ex\main.c
+              __tmplbl_17   0x001bfc    program     static                          
+              __tmplbl_18   0x001c08    program     static                          
+              __tmplbl_19   0x001c12    program     static                          
+              __tmplbl_20   0x001c1c    program     static                          
+              __tmplbl_21   0x001c26    program     static                          
+              __tmplbl_22   0x001c30    program     static                          
+              __tmplbl_23   0x001c3a    program     static                          
+              __tmplbl_24   0x001c44    program     static                          
+       ___case_1_lbl00209   0x001c48    program     static                          
+       ___case_2_lbl00210   0x001c4c    program     static                          
+       ___case_3_lbl00211   0x001c50    program     static                          
+     ___case_115_lbl00212   0x001c54    program     static                          
+     ___case_117_lbl00213   0x001c58    program     static                          
+     ___case_116_lbl00214   0x001c5c    program     static                          
+   ___case_32767_lbl00215   0x001c60    program     static                          
+     ___case_114_lbl00216   0x001c64    program     static                          
+      ___default_lbl00217   0x001c68    program     static                          
+   ___switchexit_lbl00208   0x001c6a    program     static                          
+       ___return_lbl00207   0x001c6e    program     static                          
+           RemoconOutData   0x001c76    program     extern C:\temp2\RemoconServant212_ex\main.c
+       RemoconReceiveData   0x0020bc    program     extern C:\temp2\RemoconServant212_ex\main.c
+                   __pa_0   0x002724    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_1   0x00273a    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_2   0x002748    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_3   0x002756    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_4   0x002760    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_5   0x002768    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_6   0x00277e    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_7   0x00278e    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_8   0x0027a2    program     static C:\temp2\RemoconServant212_ex\main.c
+                   __pa_9   0x0027ec    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_10   0x0027f6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_11   0x002804    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_12   0x002844    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_13   0x002852    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_14   0x002860    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_15   0x002878    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_16   0x00287e    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_17   0x00288e    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_18   0x0028a0    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_19   0x0028b2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_20   0x0028c2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_21   0x0028ce    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_22   0x0028d8    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_23   0x0028e6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_24   0x0028fe    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_25   0x00291c    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_26   0x002926    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_27   0x002936    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_28   0x002946    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_29   0x002952    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_30   0x002960    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_31   0x00296c    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_32   0x002982    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_33   0x002992    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_34   0x0029a2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_35   0x0029ba    program     static C:\temp2\RemoconServant212_ex\main.c
+             __tmplbl_131   0x0029ba    program     static                          
+             __tmplbl_164   0x0029ba    program     static                          
+             __tmplbl_173   0x0029ba    program     static                          
+                  __pa_36   0x0029c4    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_37   0x0029ce    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_38   0x0029d8    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_39   0x0029e2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_40   0x0029ea    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_41   0x0029f2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_42   0x0029fa    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_43   0x002a08    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_44   0x002a10    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_45   0x002a1c    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_46   0x002a28    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_47   0x002a34    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_48   0x002a40    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_49   0x002a4c    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_50   0x002a52    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_51   0x002a58    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_52   0x002a68    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_53   0x002a72    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_54   0x002a82    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_55   0x002a8c    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_56   0x002a98    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_57   0x002aa8    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_58   0x002ab6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_59   0x002ac4    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_60   0x002ad2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_61   0x002adc    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_62   0x002ae2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_63   0x002aec    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_64   0x002af6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_65   0x002b00    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_66   0x002b08    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_67   0x002b16    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_68   0x002b2a    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_69   0x002b38    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_70   0x002b42    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_71   0x002b4a    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_72   0x002b52    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_73   0x002b64    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_74   0x002b72    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_75   0x002b7c    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_76   0x002b88    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_77   0x002b8e    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_78   0x002b94    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_79   0x002b9e    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_80   0x002ba4    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_81   0x002bae    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_82   0x002bba    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_83   0x002bc6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_84   0x002bd2    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_85   0x002bde    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_86   0x002be6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_87   0x002bf0    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_88   0x002bf6    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_89   0x002bfc    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_90   0x002c02    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_91   0x002c08    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_92   0x002c10    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_93   0x002c16    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_94   0x002c20    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_95   0x002c28    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_96   0x002c38    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_97   0x002c46    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_98   0x002c54    program     static C:\temp2\RemoconServant212_ex\main.c
+                  __pa_99   0x002c5e    program     static C:\temp2\RemoconServant212_ex\main.c
+                 __pa_100   0x002c68    program     static C:\temp2\RemoconServant212_ex\main.c
+            USBDeviceInit   0x002c70    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+           USBDeviceTasks   0x002d28    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+          USBStallHandler   0x002e52    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+               USBSuspend   0x002e7a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+       USBWakeFromSuspend   0x002e90    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+         USBCtrlEPService   0x002eac    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+   USBCtrlTrfSetupHandler   0x002f42    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+     USBCtrlTrfOutHandler   0x002f7c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+      USBCtrlTrfInHandler   0x002f9a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+       USBCheckStdRequest   0x003016    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+  USBStdFeatureReqHandler   0x0030be    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+USBCtrlEPAllowStatusStage   0x0031c4    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+  USBCtrlEPAllowDataStage   0x00320e    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+      USBStdGetDscHandler   0x003248    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+   USBStdGetStatusHandler   0x0032c2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+ USBCtrlEPServiceComplete   0x003334    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+      USBCtrlTrfTxService   0x00338e    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+      USBCtrlTrfRxService   0x00340c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+      USBStdSetCfgHandler   0x0034d4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+     USBConfigureEndpoint   0x00353a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+        USBEnableEndpoint   0x003594    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+         USBStallEndpoint   0x0035d0    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+     USBTransferOnePacket   0x0035f4    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+              USBCancelIO   0x003668    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_0   0x003694    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_1   0x00369c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_2   0x0036a6    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_3   0x0036ae    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_4   0x0036b8    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_5   0x0036c2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_6   0x0036cc    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+              __tmplbl_23   0x0036cc    program     static                          
+              __tmplbl_33   0x0036cc    program     static                          
+                   __pa_7   0x0036d4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_8   0x0036e4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                   __pa_9   0x0036ee    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_10   0x0036fa    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_11   0x00370e    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_12   0x003718    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_13   0x003738    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_14   0x00374a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_15   0x003756    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_16   0x003770    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_17   0x00377c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_18   0x003788    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_19   0x003790    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_20   0x003798    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_21   0x0037a4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_22   0x0037b4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_23   0x0037c4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_24   0x0037d4    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_25   0x0037e2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_26   0x0037f0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_27   0x0037fe    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_28   0x00380c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_29   0x00381a    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_30   0x003824    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_31   0x00383c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_32   0x003848    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_33   0x003850    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_34   0x003864    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_35   0x003872    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_36   0x00387c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_37   0x003886    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_38   0x00388c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_39   0x00389c    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_40   0x0038a2    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_41   0x0038b0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_42   0x0038be    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_43   0x0038cc    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_44   0x0038d6    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_45   0x0038e0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_46   0x0038e8    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_47   0x0038f0    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_48   0x0038fc    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+                  __pa_49   0x003906    program     static C:\temp2\RemoconServant212_ex\Microchip\USB\usb_device.c
+               device_dsc   0x00390e    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+        configDescriptor1   0x003920    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                hid_rpt01   0x00399b    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                hid_rpt02   0x0039cf    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                hid_rpt03   0x0039ee    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                hid_rpt04   0x003a2d    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                    sd000   0x003a4a    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                    sd001   0x003a4e    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+                    sd002   0x003a74    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+               USB_CD_Ptr   0x003a92    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+               USB_SD_Ptr   0x003a94    program     extern C:\temp2\RemoconServant212_ex\usb_descriptors.c
+       USBCheckHIDRequest   0x003a9a    program     extern C:\temp2\RemoconServant212_ex\Microchip\USB\HID Device Driver\usb_function_hid.c
+                _do_cinit   0x003bbc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x003bd6    program     static                          
+                copy_loop   0x003c2e    program     static                          
+            copy_one_byte   0x003c34    program     static                          
+             done_copying   0x003c42    program     static                          
+       ___return_lbl00002   0x003c58    program     static                          
+                     done   0x003c58    program     static                          
+                SetDCPWM1   0x003c5a    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
+                   memset   0x003cb8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                    jLoop   0x003ccc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+              _2jContinue   0x003cd8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                   _3jEnd   0x003ce2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                     jEnd   0x003cea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                   strlen   0x003cec    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                    jLoop   0x003cfc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     jEnd   0x003d06    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                 OpenPWM1   0x003d08    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
+         OpenPWM1ConfigIO   0x003d32    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
+               ReadEEPROM   0x003d50    program     extern C:\temp2\RemoconServant212_ex\eeprom.c
+              WriteEEPROM   0x003d60    program     extern C:\temp2\RemoconServant212_ex\eeprom.c
+                   __pa_0   0x003d82    program     static C:\temp2\RemoconServant212_ex\eeprom.c
+              WriteTimer0   0x003d92    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
+               OpenTimer0   0x003dca    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+               OpenTimer2   0x003e02    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c
+                 FXD1616U   0x003e38    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                     loop   0x003e42    program     static                          
+                  endloop   0x003e5e    program     static                          
+       ___return_lbl00000   0x003e62    program     static                          
+            __zero_memory   0x003e64    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   loop_h   0x003e72    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               zero_block   0x003e72    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                compare_l   0x003e7a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   loop_l   0x003e7c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 _startup   0x003e84    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x003e94    program     static                          
+       ___return_lbl00001   0x003e9e    program     static                          
                __config_0   0x300000    program     static C:\temp2\RemoconServant212_ex\main.c
                __config_1   0x300001    program     static C:\temp2\RemoconServant212_ex\main.c
                __config_2   0x300002    program     static C:\temp2\RemoconServant212_ex\main.c
@@ -1068,14 +1066,14 @@ USBCtrlEPAllowStatusStage   0x0031f6    program     extern C:\temp2\RemoconServa
                __config_9   0x30000b    program     static C:\temp2\RemoconServant212_ex\main.c
               __config_10   0x30000c    program     static C:\temp2\RemoconServant212_ex\main.c
               __config_11   0x30000d    program     static C:\temp2\RemoconServant212_ex\main.c
-                 __AARGB7   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB3   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB7   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB6   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB2   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
-                 __AARGB5   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB1   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
-                 __AARGB4   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB5   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB0   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB4   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB3   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB2   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB1   0x000006       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
@@ -1129,14 +1127,14 @@ uc_send_bit_size_2nd_data   0x0000e8       data     extern C:\temp2\RemoconServa
         uc_read_code_type   0x0000ea       data     extern C:\temp2\RemoconServant212_ex\main.c
          uc_out_code_type   0x0000eb       data     extern C:\temp2\RemoconServant212_ex\main.c
          ui_PWM50_Set_Val   0x0000ec       data     extern C:\temp2\RemoconServant212_ex\main.c
-                debug_ary   0x0000ee       data     extern C:\temp2\RemoconServant212_ex\main.c
-    volume_input_out_flag   0x0000f2       data     extern C:\temp2\RemoconServant212_ex\main.c
-     mouse_input_out_flag   0x0000f3       data     extern C:\temp2\RemoconServant212_ex\main.c
-      hid_report_out_flag   0x0000f4       data     extern C:\temp2\RemoconServant212_ex\main.c
-                     prom   0x0000f5       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                curr_byte   0x0000f8       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               curr_entry   0x0000fa       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 data_ptr   0x0000fc       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+           TimerZeroCount   0x0000ee       data     extern C:\temp2\RemoconServant212_ex\main.c
+    volume_input_out_flag   0x0000f0       data     extern C:\temp2\RemoconServant212_ex\main.c
+     mouse_input_out_flag   0x0000f1       data     extern C:\temp2\RemoconServant212_ex\main.c
+      hid_report_out_flag   0x0000f2       data     extern C:\temp2\RemoconServant212_ex\main.c
+                     prom   0x0000f3       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x0000f6       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x0000f8       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x0000fa       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
           keyboard_buffer   0x000150       data     extern C:\temp2\RemoconServant212_ex\main.c
          lastTransmission   0x000158       data     extern C:\temp2\RemoconServant212_ex\main.c
         lastTransmission2   0x00015a       data     extern C:\temp2\RemoconServant212_ex\main.c
@@ -1183,58 +1181,58 @@ USBDeferOUTDataStagePackets   0x0001f1       data     extern C:\temp2\RemoconSer
                hid_report   0x00026e       data     extern C:\temp2\RemoconServant212_ex\main.c
        ReceivedDataBuffer   0x000276       data     extern C:\temp2\RemoconServant212_ex\main.c
          ToSendDataBuffer   0x0002b6       data     extern C:\temp2\RemoconServant212_ex\main.c
-                 UEP0bits   0x000f53       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      UEP0   0x000f53       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                     UEP1   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP0bits   0x000f53       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  UEP1bits   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                 UEP2bits   0x000f55       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP1   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      UEP2   0x000f55       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                 UEP3bits   0x000f56       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP2bits   0x000f55       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      UEP3   0x000f56       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP3bits   0x000f56       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  UEP4bits   0x000f57       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      UEP4   0x000f57       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  UEP5bits   0x000f58       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      UEP5   0x000f58       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                     UEP6   0x000f59       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  UEP6bits   0x000f59       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP6   0x000f59       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  UEP7bits   0x000f5a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      UEP7   0x000f5a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                 UEIEbits   0x000f5b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      UEIE   0x000f5b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEIEbits   0x000f5b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                 UADDRbits   0x000f5c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     UADDR   0x000f5c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                    UFRML   0x000f5d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                 UFRMLbits   0x000f5d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    UFRML   0x000f5d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                 UFRMHbits   0x000f5e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     UFRMH   0x000f5e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                 UEIRbits   0x000f5f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      UEIR   0x000f5f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                      UIE   0x000f60       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEIRbits   0x000f5f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                   UIEbits   0x000f60       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      UIE   0x000f60       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      UCFG   0x000f61       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  UCFGbits   0x000f61       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                      UIR   0x000f62       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                   UIRbits   0x000f62       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                    USTAT   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      UIR   0x000f62       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                 USTATbits   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                     UCON   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    USTAT   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  UCONbits   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                   SRCON0   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UCON   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                SRCON0bits   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                   SRCON1   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SRCON0   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                SRCON1bits   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SRCON1   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                   CM2CON0   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
               CM2CON0bits   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
               CM2CON1bits   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                   CM2CON1   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-              CM1CON0bits   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                   CM1CON0   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              CM1CON0bits   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                SSPMSKbits   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                    SSPMSK   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                SLRCONbits   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                    SLRCON   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                 WPUAbits   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      WPUA   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 WPUAbits   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      WPUB   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  WPUBbits   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      IOCA   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
@@ -1243,20 +1241,20 @@ USBDeferOUTDataStagePackets   0x0001f1       data     extern C:\temp2\RemoconSer
                      IOCB   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     ANSEL   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                 ANSELbits   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-               ANSELHbits   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                    ANSELH   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                    PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               ANSELHbits   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                 PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                 PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                 PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     PORTC   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  LATAbits   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  LATBbits   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  LATCbits   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  DDRAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      DDRA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                 TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
@@ -1265,16 +1263,16 @@ USBDeferOUTDataStagePackets   0x0001f1       data     extern C:\temp2\RemoconSer
                     TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  DDRBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                 DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      DDRC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
               OSCTUNEbits   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                   OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      PIE1   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                 PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      PIR1   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      IPR1   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
@@ -1283,46 +1281,46 @@ USBDeferOUTDataStagePackets   0x0001f1       data     extern C:\temp2\RemoconSer
                  PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                      IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-               EECON1bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                    EECON1   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               EECON1bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                    EECON2   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                    EEDATA   0x000fa8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                EEADRbits   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     EEADR   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                EEADRbits   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     RCSTA   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                 RCSTAbits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     TXREG   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     RCREG   0x000fae       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     SPBRG   0x000faf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                    SPBRGH   0x000fb0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     T3CON   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     TMR3L   0x000fb2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     TMR3H   0x000fb3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
               ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                   ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
               PWM1CONbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                   PWM1CON   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
               BAUDCONbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                   BAUDCON   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                  BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-              BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                  PSTRCON   0x000fb9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
               PSTRCONbits   0x000fb9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-              REFCON0bits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  PSTRCON   0x000fb9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                   REFCON0   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              REFCON0bits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  VREFCON0   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
              VREFCON0bits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
               REFCON1bits   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-             VREFCON1bits   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                   REFCON1   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+             VREFCON1bits   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  VREFCON1   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-                  REFCON2   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
-              REFCON2bits   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
              VREFCON2bits   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                  VREFCON2   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  REFCON2   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              REFCON2bits   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
               CCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                   CCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
                     CCPR1   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
