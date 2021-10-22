@@ -387,7 +387,7 @@ unsigned int ui_PWM50_Set_Val = PWM_50;
 #define TIMER0_COUNT_1MINUTES (TIMER0_COUNT_1SECONDS * 60)
 #define TIMER0_COUNT_1HOURS (TIMER0_COUNT_1MINUTES * 60)
 #define INTERVAL_SECONDS (TIMER0_COUNT_1HOURS)
-unsigned int TimerZeroCount = INTERVAL_SECONDS;
+unsigned int TimerZeroCount = INTERVAL_TIME;
 // ↑実際には若干0.1msより遅くなっていく (そこまでの精度はいらないためこれでOK)
 
 // usbでの送信に使うバッファはここで宣言
@@ -578,7 +578,7 @@ void main(void)
     while(1)
     {
 		// ADD START 2021/10/22
-		if (TimerZeroCount >= INTERVAL_SECONDS) {
+		if (TimerZeroCount >= INTERVAL_TIME) {
 			TimerZeroCount = 0;
 			// 実験で起動時に1度送信可能か試す ← 実験OK
 			ToSendDataBuffer[0] = 0x61;				//Echo back to the host PC the command we are fulfilling in the first byte.  In this case, the Get Remocon Data command.
