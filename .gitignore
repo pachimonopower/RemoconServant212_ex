@@ -1,0 +1,17 @@
+# ■MPLAB v8 拡張子の参考
+#
+# プロジェクト | MPLAB IDE
+# https://so-zou.jp/robot/tech/microcomputer/pic/development-environment/mplab-ide/project/
+
+
+# ビルドで生成されるものは無視する
+*.o
+*.cof
+*.hex
+*.map
+*.zip
+
+# シミュレータファイル？なぜかビルドしたら消えた
+*.mcs
+
+
