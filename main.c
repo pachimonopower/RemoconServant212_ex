@@ -386,7 +386,7 @@ unsigned int ui_PWM50_Set_Val = PWM_50;
 #define TIMER0_COUNT_1SECONDS (10)
 #define TIMER0_COUNT_1MINUTES (TIMER0_COUNT_1SECONDS * 60)
 #define TIMER0_COUNT_1HOURS (TIMER0_COUNT_1MINUTES * 60)
-#define INTERVAL_SECONDS (TIMER0_COUNT_1HOURS)
+#define INTERVAL_TIME (TIMER0_COUNT_1HOURS)
 unsigned int TimerZeroCount = INTERVAL_TIME;
 // Å™é¿ç€Ç…ÇÕé·ä±0.1msÇÊÇËíxÇ≠Ç»Ç¡ÇƒÇ¢Ç≠ (ÇªÇ±Ç‹Ç≈ÇÃê∏ìxÇÕÇ¢ÇÁÇ»Ç¢ÇΩÇﬂÇ±ÇÍÇ≈OK)
 
