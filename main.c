@@ -381,7 +381,6 @@ unsigned int ui_PWM50_Set_Val = PWM_50;
 // デバッグ
 unsigned char debug_ary[4] = {0};
 
-
 // usbでの送信に使うバッファはここで宣言
 #pragma udata usbram2
 
@@ -535,7 +534,11 @@ unsigned char ToSendDataBuffer[TX_BUFFER_SIZE];
  * Note:            None
  *******************************************************************/
 void main(void)
-{   
+{
+	// ADD START 2021/10/22
+	int fi;
+	// END START 2021/10/22
+
     InitializeSystem();
 
     #if defined(USB_INTERRUPT)
@@ -560,6 +563,26 @@ void main(void)
 //	INTCONbits.GIEH = 1;	//高位レベル割り込みの許可
 	INTCONbits.GIE = 1;
 	
+	// ADD START 2021/10/22
+	// 実験で起動時に1度送信可能か試す
+	ToSendDataBuffer[0] = 0x61;				//Echo back to the host PC the command we are fulfilling in the first byte.  In this case, the Get Remocon Data command.
+	uc_out_code_type = CODE_TYPE_EXTENSION;
+	for(fi = 0; fi < OUTBUFFER_SIZE_EX; fi++ )
+    {
+	    uc_out_buff[fi] = 0;
+	}
+	uc_out_buff[0] = 0x01; // ここからターゲットの送信データ
+	uc_out_buff[1] = 0x30; // 配列宣言するとリンクできなくて死ぬ
+	uc_out_buff[2] = 0x00;
+	uc_out_buff[3] = 0x28;
+	uc_out_buff[4] = 0x61;
+	uc_out_buff[5] = 0xBD;
+	uc_out_buff[6] = 0xA1;
+	uc_out_buff[7] = 0x12;
+	uc_out_buff[8] = 0xED;
+	uc_out_buff[9] = 0x00;
+	// END START 2021/10/22
+
     while(1)
     {
         #if defined(USB_POLLING)
