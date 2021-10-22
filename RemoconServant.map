@@ -1,0 +1,126 @@
+MPLINK 5.00, LINKER
+Linker Error Map File - Created Fri Oct 22 22:23:18 2021
+
+*Warning* - This is only a partial map file due to a link time error.
+   Only sections which were allocated prior to the error are shown below.
+
+CODEPAGES:
+    Memory      Start        End              Section    Address Size(Bytes)
+ ---------  ---------  ---------            ---------  ---------  ---------
+   vectors     0x0000     0x0029           _entry_scn     0x0000     0x0006
+                                 HIGH_INTERRUPT_VECTOR     0x0008     0x0006
+                                 LOW_INTERRUPT_VECTOR     0x0018     0x0006
+
+bootloader     0x002a     0x0fff                                           
+
+      page     0x1000     0x3fff REMAPPED_RESET_VECTOR     0x1000     0x0006
+                                       .code___init.o     0x1006     0x0002
+                                 REMAPPED_HIGH_INTERRUPT_VECTOR     0x1008     0x0006
+                                     .code_pw1close.o     0x100e     0x0004
+                                      .romdata_main.o     0x1012     0x0000
+                                  .romdata_fxd1616u.o     0x1012     0x0000
+                                    .romdata_eeprom.o     0x1012     0x0000
+                                     .romdata_c018i.o     0x1012     0x0000
+                                    .romdata___init.o     0x1012     0x0000
+                                 .idata_usb_function_hid.o_i     0x1012     0x0000
+                                 .idata_usb_device.o_i     0x1012     0x0000
+                                 .idata_usb_descriptors.o_i     0x1012     0x0000
+                                    .idata_t2open.o_i     0x1012     0x0000
+                                   .idata_t0write.o_i     0x1012     0x0000
+                                    .idata_t0open.o_i     0x1012     0x0000
+                                  .idata_pw1setdc.o_i     0x1012     0x0000
+                                   .idata_pw1open.o_i     0x1012     0x0000
+                                  .idata_pw1close.o_i     0x1012     0x0000
+                                  .romdata_pw1close.o     0x1012     0x0000
+                                   .romdata_pw1open.o     0x1012     0x0000
+                                  .romdata_pw1setdc.o     0x1012     0x0000
+                                    .romdata_t0open.o     0x1012     0x0000
+                                   .romdata_t0write.o     0x1012     0x0000
+                                    .romdata_t2open.o     0x1012     0x0000
+                                 .romdata_usb_device.o     0x1012     0x0000
+                                 .romdata_usb_function_hid.o     0x1012     0x0000
+                                         .stringtable     0x1012     0x0000
+                                 REMAPPED_LOW_INTERRUPT_VECTOR     0x1018     0x0006
+                                               .cinit     0x101e     0x000e
+                                         .code_main.o     0x102c     0x1cba
+                                   .code_usb_device.o     0x2ce6     0x0c9e
+                                 .romdata_usb_descriptors.o     0x3984     0x018c
+                                 .code_usb_function_hid.o     0x3b10     0x0122
+                                           _cinit_scn     0x3c32     0x009e
+                                     .code_pw1setdc.o     0x3cd0     0x005e
+                                                 PROG     0x3d2e     0x005a
+                                               STRING     0x3d88     0x0050
+                                      .code_pw1open.o     0x3dd8     0x0048
+                                       .code_eeprom.o     0x3e20     0x0042
+                                      .code_t0write.o     0x3e62     0x0038
+                                       .code_t0open.o     0x3e9a     0x0038
+                                       .code_t2open.o     0x3ed2     0x0036
+                                     .code_fxd1616u.o     0x3f08     0x002c
+                                                .code     0x3f34     0x0020
+                                         _startup_scn     0x3f54     0x001c
+
+    idlocs     0x0000     0x0007                                           
+
+    config     0x0000     0x000d .config_300000_main.o     0x0000     0x0001
+                                 .config_300001_main.o     0x0001     0x0001
+                                 .config_300002_main.o     0x0002     0x0001
+                                 .config_300003_main.o     0x0003     0x0001
+                                 .config_300005_main.o     0x0005     0x0001
+                                 .config_300006_main.o     0x0006     0x0001
+                                 .config_300008_main.o     0x0008     0x0001
+                                 .config_300009_main.o     0x0009     0x0001
+                                 .config_30000a_main.o     0x000a     0x0001
+                                 .config_30000b_main.o     0x000b     0x0001
+                                 .config_30000c_main.o     0x000c     0x0001
+                                 .config_30000d_main.o     0x000d     0x0001
+
+     devid     0xfffe     0xffff                                           
+
+
+SHAREBANKS:
+
+DATABANKS:
+    Memory      Start        End              Section    Address Size(Bytes)
+ ---------  ---------  ---------            ---------  ---------  ---------
+      gpr0     0x0060     0x00ff        .idata_main.o     0x0060     0x0095
+                                       .udata_c018i.o     0x00f5     0x000a
+                                 .udata_usb_descriptors.o     0x00ff     0x0000
+                                      .udata_t2open.o     0x00ff     0x0000
+                                     .udata_t0write.o     0x00ff     0x0000
+                                      .udata_t0open.o     0x00ff     0x0000
+                                    .udata_pw1setdc.o     0x00ff     0x0000
+                                     .udata_pw1open.o     0x00ff     0x0000
+                                    .udata_pw1close.o     0x00ff     0x0000
+                                    .udata_fxd1616u.o     0x00ff     0x0000
+                                      .udata_eeprom.o     0x00ff     0x0000
+                                      .udata___init.o     0x00ff     0x0000
+                                 .idata_usb_function_hid.o     0x00ff     0x0000
+                                  .idata_usb_device.o     0x00ff     0x0000
+                                 .idata_usb_descriptors.o     0x00ff     0x0000
+                                      .idata_t2open.o     0x00ff     0x0000
+                                     .idata_t0write.o     0x00ff     0x0000
+                                      .idata_t0open.o     0x00ff     0x0000
+                                    .idata_pw1setdc.o     0x00ff     0x0000
+                                     .idata_pw1open.o     0x00ff     0x0000
+                                    .idata_pw1close.o     0x00ff     0x0000
+
+      gpr1     0x0100     0x01f3               .stack     0x0100     0x0050
+                                        .udata_main.o     0x0150     0x0062
+                                  .udata_usb_device.o     0x01b2     0x0040
+                                 .udata_usb_function_hid.o     0x01f2     0x0002
+
+      usb2     0x0200     0x02ff              USB_BDT     0x0200     0x0069
+                                              usbram2     0x0269     0x008d
+
+     sfr15     0x0f40     0x0f5f          SFR_BANKED0     0x0f53     0x000d
+
+
+ACCESSBANKS:
+    Memory      Start        End              Section    Address Size(Bytes)
+ ---------  ---------  ---------            ---------  ---------  ---------
+ accessram     0x0000     0x005f            MATH_DATA     0x0000     0x0014
+                                             .tmpdata     0x0014     0x0006
+
+ accesssfr     0x0f60     0x0fff        SFR_UNBANKED0     0x0f60     0x00a0
+
+
