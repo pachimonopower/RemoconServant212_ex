@@ -383,11 +383,13 @@ unsigned int ui_PWM50_Set_Val = PWM_50;
 // ↑ 2021/10/21 一旦オフ (udataがはみでてしまうため)
 
 // タイマー0 0.1ms カウンター 2021/10/21
-#define TIMER0_COUNT_1SECONDS (10)
-#define TIMER0_COUNT_1MINUTES (TIMER0_COUNT_1SECONDS * 60)
-#define TIMER0_COUNT_1HOURS (TIMER0_COUNT_1MINUTES * 60)
-#define INTERVAL_TIME (TIMER0_COUNT_1HOURS)
-unsigned int TimerZeroCount = INTERVAL_TIME;
+// #define TIMER0_COUNT_1MS (10)
+// #define TIMER0_COUNT_1SECONDS (TIMER0_COUNT_1MS * 1000)
+// #define TIMER0_COUNT_1MINUTES (TIMER0_COUNT_1SECONDS * 60)
+// #define TIMER0_COUNT_1HOURS (TIMER0_COUNT_1MINUTES * 60)
+// #define INTERVAL_TIME (TIMER0_COUNT_1HOURS)
+#define INTERVAL_TIME (36000000) // ↑なにこれ？コンパイラバカでうまくいってないとか？
+unsigned long TimerZeroCount = INTERVAL_TIME;
 // ↑実際には若干0.1msより遅くなっていく (そこまでの精度はいらないためこれでOK)
 
 // usbでの送信に使うバッファはここで宣言
